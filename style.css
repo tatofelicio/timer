@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&display=swap');
+@font-face {
+    font-family: 'digital';
+    src: url(assets/DS-DIGI.TTF);
+}
+
+
+
+body{
+    text-transform: uppercase;
+    font-family: "Orbitron";
+    background: radial-gradient(circle at top, #0f2027, #000);
+    min-height: 100vh;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    color: #00ffe7;
+    background-color: rgba(0, 20,25, 0.6);
+    padding: 50px 40px;
+    box-shadow: 0 10px 30px;
+    border: 2px solid rgba(0,255,255,.4);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 8px rgba(0,255,255,.4);
+    
+}
+
+.relogio{
+    font-size: 80px;
+    font-family: "Orbitron";
+    text-align: center;
+    margin: 25px 25px;
+}
+
+.pausado{
+    color:red;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #00ffe7;
+  color: #00ffe7;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  font-family: 'Orbitron', monospace;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(0,255,255,.15);
+  box-shadow: 0 0 10px rgba(0,255,255,.6);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(0,255,231,0.15),
+    transparent 40%
+  );
+  pointer-events: none;
+}
