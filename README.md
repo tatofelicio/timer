@@ -1,7 +1,7 @@
 ⏱️ Cronômetro Futurista (JS Timer)
 Um cronômetro web interativo com design futurista/neon, desenvolvido para praticar lógica de programação com JavaScript, manipulação do DOM e estilização avançada com CSS.
 
-(Dica: Substitua esse link por um print real da sua tela depois)
+  ![preview do timer](assets/img/preview.png)
 
 🚀 Funcionalidades
 Iniciar: Começa a contagem do tempo progressivamente.
